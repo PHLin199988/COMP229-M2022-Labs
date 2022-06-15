@@ -113,10 +113,15 @@
   resolved "https://registry.yarnpkg.com/@types/ms/-/ms-0.7.31.tgz#31b7ca6407128a3d2bbc27fe2d21b345397f6197"
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
-"@types/node@*", "@types/node@^17.0.39":
+"@types/node@*":
   version "17.0.39"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.39.tgz#3652d82e2a16b4ea679d5ea3143b816c91b7e113"
   integrity sha512-JDU3YLlnPK3WDao6/DlXLOgSNpG13ct+CwIO17V8q0/9fWJyeMJJ/VyZ1lv8kDprihvZMydzVwf0tQOqGiY2Nw==
+
+"@types/node@^17.0.35":
+  version "17.0.43"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.43.tgz#7f16898cdd791c9d64069000ad448b47b3ca8353"
+  integrity sha512-jnUpgw8fL9kP2iszfIDyBQtw5Mf4/XSqy0Loc1J9pI14ejL83XcCEvSf50Gs/4ET0I9VCCDoOfufQysj0S66xA==
 
 "@types/passport-local-mongoose@^6.1.1":
   version "6.1.1"
@@ -423,7 +428,7 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 
-express@^4.16.1:
+express@^4.18.1:
   version "4.18.1"
   resolved "https://registry.yarnpkg.com/express/-/express-4.18.1.tgz#7797de8b9c72c857b9cd0e14a5eea80666267caf"
   integrity sha512-zZBcOX9TfehHQhtupq57OF8lFZ3UZi08Y97dwFCkD8p9d/d2Y3M+ykKcwaMDEL+4qyUolgBDX6AblpR3fL212Q==
@@ -655,23 +660,10 @@ mongodb@4.5.0:
   optionalDependencies:
     saslprep "^1.0.3"
 
-mongoose@*, mongoose@^6.3.0:
+mongoose@*, mongoose@^6.3.0, mongoose@^6.3.5:
   version "6.3.8"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.3.8.tgz#2a66d25177f78b719ca0768d34e939b280104daf"
   integrity sha512-TPIm61/DR2Go+aDXD5HM6vwMvl4dEOFos1oTT4yPT8qJpcTugxWXf5J2Vp+0vzqDETfDMtN/gBhPCzFdFJx2bg==
-  dependencies:
-    bson "^4.6.2"
-    kareem "2.3.5"
-    mongodb "4.5.0"
-    mpath "0.9.0"
-    mquery "4.0.3"
-    ms "2.1.3"
-    sift "16.0.0"
-
-mongoose@^6.3.7:
-  version "6.3.7"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.3.7.tgz#c6e2fbe49700cdc48cb51f5c24249334bb4990a3"
-  integrity sha512-PjimcB2LLIfAn8Q+sKSFOWaMfYmQtZeA01nkqspX8WHbLR5Ltw7yOQtMkJpPSK4BZ7s3vPx7QUseYlLVcLSk3Q==
   dependencies:
     bson "^4.6.2"
     kareem "2.3.5"

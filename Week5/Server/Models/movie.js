@@ -7,7 +7,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const Schema = mongoose_1.default.Schema;
 const MovieSchema = new Schema({
     Name: String,
-    Year: Date,
+    Year: String,
     Director: String,
     Rating: String
 }, {
